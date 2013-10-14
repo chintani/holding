@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Hello Again VNC"
+description: "Configuring a VNC client to use with Linux created on Digital Ocean droplet."
+category: articles
+tags: [vnc client, digital ocean, droplet, linux]
+---
+
 In my last post I successfully installed A VNC to my Linux droplet on Digital Ocean. However, by the time I got finished with Step 5 and successfully connected to the server, I managed to mess it all up to the point of no return ...(for a novice that is).
 
 It started when I decided to follow the instructions beginning with:
