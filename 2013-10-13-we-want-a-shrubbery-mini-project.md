@@ -10,4 +10,4 @@ I signed up today in Coursera to learn Python. The name of the class is *An Intr
 
 I wonder how this works out for future takers of this class? If I can share my code with a friend and that friend at a later date decides to take this class, wouldn't having access to what I have already written put this person at an advantage over others in the class?
 
-[We Want A Shrubbery](http://www.codeskulptor.org/#user19_RF6I1qLO9R_0.py "We want a shrubbery")
+Anyway the first assignment entitled [We Want A Shrubbery!](http://www.codeskulptor.org/#user19_RF6I1qLO9R_0.py "We want a shrubbery") was due to be submitted yesterday! I missed it. It is a good thing it was easy and also optional or my goose would have been cooked! So far I am enjoying this course ... not pulling my hair out ... yet!
