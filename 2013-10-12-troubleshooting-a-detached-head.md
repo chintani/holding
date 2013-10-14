@@ -20,4 +20,10 @@ Incidentally my son tells me to STOP doing that because I am just making my lear
 
 Moving on ... I did a [rebase](http://git-scm.com/book/en/Git-Branching-Rebasing "Rebasing on the git-scm book") and then went to `refs/heads/master`. Again, I was at a loss for what that meant so I went to the Git book again. Found and article on [References](http://git-scm.com/book/en/Git-Internals-Git-References "Git References") which is what "ref" stands for. So as a recap for me HEAD(10) is a clone of my repo on GitHub, HEAD(9) was me moving the "HEAD" from the master branch to a commit in that same branch a "README" file. HEAD(8)The rebasing occurred because I created and committed the file online at GitHub (I am guessing) and then returned the HEAD to master.
 
-HEAD(7) 
+HEAD(7) Moving from master to origin master, in effect moving from git on my computer to git on GitHub. My next move was at HEAD(6) where I went to that commit "README" file again. I know this because the checksum (the long alpha number beginning with a3c772f) is the same from HEAD(9). I moved from that commit to ??? my screen shot does not say, so I will have to find out later by some other means that I have not learned yet. HEAD(5) was a commit in which I deleted the gruntfile and made changes to post Markdown and HTML pages. I moved from that commit to ???
+
+HEAD's(4),(3), (2),and (1) is switching back & forth from branch master & ph-pages and vice-versa. My final HEAD(0) is a commit of deleted file theme-setup.
+
+The question I now have is what happened when I checked out commit 0bb1fff and a3c772f? The answer to the question I will pursue at a later time to see if they are the cause for my Detached Head problem.
+
+What I learned from this exercise is that commits should me made when the HEAD is at a branch. When a checkout of a commit is made it produces a Detached Head and I should not try to make a commit of any kind when the HEAD is not at a branch or it will put me in a Detached Head Status. 
