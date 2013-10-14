@@ -3,7 +3,7 @@ layout: post
 title: "We Want a Shrubbery!"
 description: "My first mini project in a class for Python on Coursera."
 category: articles
-tags: [python, coursera, mini projects]
+tags: [python, learn python, coursera, mini projects]
 ---
 
 I signed up today in Coursera to learn Python. The name of the class is *An Introduction to Interactive Programming in Python* I was a little apprehensive about blogging about an active course I am taking but it seems I am allowed to share my work with anyone, as they say 'friends' so it seems it does not matter who is seeing my code as I am taking this class.
