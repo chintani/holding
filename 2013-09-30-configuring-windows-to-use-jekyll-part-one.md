@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Configuring Windows To Use Jekyll Part One"
+description: "Configure windows to use Jekyll "
+category: articles
+tags: [jekyll, windows]
+---
+
 It really bugs me when I am trying to accomplish a task and not able to because my Windows machine does not comprehend what I am trying to do. I have been trying for days now to configure my Windows 8 computer to run Jekyll locally on my machine without much success. I have decided to try one more time to get it up and running. My programmer son said that I should use Linux for such a task and although I want to learn to use Linux eventually, my available time is limited with an ill parent, a teenage son and a "boss" who wants me to be working actively on GitHub every day.
 
 So I have decided to give Windows one more try before moving on to Linux. Sigh!
