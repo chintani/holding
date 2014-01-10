@@ -1,1 +1,2 @@
 01.09.2014 "octothorpe" -- #, pound, hash tag, mesh
+01.09.2014 "modulus" -- % The result of % is the remainder of a division problem.
