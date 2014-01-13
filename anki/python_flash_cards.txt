@@ -5,6 +5,7 @@
 01.12.2014 "close" -- Closes the file. Like File->Save.. in your editor.
 01.12.2014 "read" -- Reads the contents of the file. You can assign the result to a variable.
 01.12.2014 "readline" -- Reads just one line of a text file.
+01.12.2014 "truncate" -- Empties the file. Watch out if you care about the file.
 
 
 
