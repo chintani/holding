@@ -3,6 +3,7 @@
 01.10.2014 "What is the difference between = (single-equal) and == (double-equal)?" -- The = (single-equal) assigns the value on the right to a variable on the left. The == (double-equal) tests if two things have the same value
 01.11.2014 Difference between "%r and %s -- The %r for debugging, since it displays the "raw" data of the variable, but the others are used for displaying to users.
 01.12.2014 "close" -- Closes the file. Like File->Save.. in your editor.
+01.12.2014 "read" -- Reads the contents of the file. You can assign the result to a variable.
 
 
 
