@@ -7,6 +7,7 @@
 01.12.2014 "readline" -- Reads just one line of a text file.
 01.12.2014 "truncate" -- Empties the file. Watch out if you care about the file.
 01.12.2014 "write(stuff)" -- Writes stuff to the file.
+01.13.2014 "def" -- Define, tells Python we want to make a function.
 
 
 
