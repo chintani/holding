@@ -9,9 +9,11 @@
 01.12.2014 "write(stuff)" -- Writes stuff to the file.
 01.13.2014 "def" -- Define, tells Python we want to make a function.
 01.14.2014 "How many ways to run a function?" -- there's a theoretically infinite number of ways to call any function
-01.15.2014 "None" -- There is a function that is missing the return at the end.
+01.15.2014 "None" -- There is a function that is missing the return at the end. 
 01.15.2014 "-bash: import: command not found" -- running in terminal, Python has to be running first.
-
+01.15.2014 "ImportError: No module named ...  .py" -- Python knows the file ends in .py Don't add the .py to the end.
+01.15.2014 "SyntaxError: invalid syntax"  -- There is something missing
+ like a ( or : or " in the line in question or above it.
 
 
 
