@@ -20,6 +20,7 @@
 01.26.2014 "<=" -- (less-than-equal)
 01.26.2014 The Truth Terms "AND" -- True and False ==	False
 01.26.2014 The Truth Terms "AND" -- True and True == True
+01.26.2014 The Truth Terms "AND" -- False and True == False
 
 
 
