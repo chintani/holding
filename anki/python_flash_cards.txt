@@ -16,5 +16,6 @@
  like a ( or : or " in the line in question or above it.
 01.26.2014 "!=" -- (not equal)
 01.26.2014 "==" -- (equal)
+01.26.2014 ">=" -- (greater-than-equal)
 
 
