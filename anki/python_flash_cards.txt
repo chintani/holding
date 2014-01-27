@@ -14,6 +14,6 @@
 01.15.2014 "ImportError: No module named ...  .py" -- Python knows the file ends in .py Don't add the .py to the end.
 01.15.2014 "SyntaxError: invalid syntax"  -- There is something missing
  like a ( or : or " in the line in question or above it.
-
+01.26.2014 "!=" -- (not equal)
 
 
