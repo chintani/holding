@@ -15,5 +15,6 @@
 01.15.2014 "SyntaxError: invalid syntax"  -- There is something missing
  like a ( or : or " in the line in question or above it.
 01.26.2014 "!=" -- (not equal)
+01.26.2014 "==" -- (equal)
 
 
