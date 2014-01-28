@@ -25,4 +25,5 @@
 01.27.2014 The Truth Terms "OR" -- True or False == True
 01.27.2014 The Truth Terms "OR" -- True or True == True
 01.27.2014 The Truth Terms "OR" -- False or True == True
+01.27.2014 The Truth Terms "OR" -- False or False == False
 
