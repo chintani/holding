@@ -33,3 +33,4 @@
 01.29.2014 The Truth Terms "NOT OR" -- not (False or True) == False
 01.29.2014 The Truth Terms "NOT OR" -- not (False or False) == True
 01.30.2014 The Truth Terms "NOT AND" -- not (True and False) ==	True
+01.30.2014 The Truth Terms "NOT AND" -- not (True and True) == False
