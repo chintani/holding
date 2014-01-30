@@ -43,4 +43,4 @@
 01.30.2014 The Truth Terms "==" -- 1 == 0 == False
 01.30.2014 The Truth Terms "==" -- 1 == 1 == True
 01.30.2014 The Truth Terms "==" -- 0 == 1 == False
-
+01.30.2014 The Truth Terms "==" -- 0 == 0 == True
