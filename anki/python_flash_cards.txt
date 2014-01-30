@@ -35,3 +35,4 @@
 01.30.2014 The Truth Terms "NOT AND" -- not (True and False) ==	True
 01.30.2014 The Truth Terms "NOT AND" -- not (True and True) == False
 01.30.2014 The Truth Terms "NOT AND" -- not (False and True) ==	True
+01.30.2014 The Truth Terms "NOT AND" -- not (False and False) == True
