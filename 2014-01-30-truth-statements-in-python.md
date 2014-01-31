@@ -8,6 +8,8 @@ tags: [truth statements in python, learning python]
 ---
 
 I have been learning python for some time now and I have been using various sources to accomplish this feat including Coursera and the website learn python the hard way.
+
+One of my major pet peeves with learning to program is understanding the boolean truth statements. I am not getting it!! Apparently to make my life much easier in my understanding what python is doing and writing computer code myself is these True and False statements (aka boolean logic).
 ![](http://i1205.photobucket.com/albums/bb424/cybercorp/GitHub%20Images/2014-01-30_1230_zps340c3e32.png)
 
 ![](http://i1205.photobucket.com/albums/bb424/cybercorp/GitHub%20Images/2014-01-30_1243_zps5632c21f.png)
