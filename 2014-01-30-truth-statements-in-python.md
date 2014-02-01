@@ -27,6 +27,15 @@ Me: Uh...hmmm... and after a minute or two, True??
 
 Me: (Getting a little defensive) Well, I told you I am not getting it, I don't understand what it is I am supposed to be getting ... I don't have the aptitude for programming!!
 
+To make a long teaching session short, this is what I learned.
+
+1. If you have AND's and you see a false, it is false.
+2. If you have OR's and you see a true it is true
+3. NOT, is the opposite of whatever the expression evaluates to.
+
+If there is still a little confusion, then maybe this visual will help you like it did for me. True is like a light bulb that is on and False is when the bulb is off.
+For the OR's if any of the bulbs are on then it is True but for the AND's, all the bulbs have to be on for it to be True if not it is False. For the NOT's work out the expression you are working with and when you have an answer, apply the NOT and it will be the opposite of your answer. The "it" to which I am referring is the expression that you are evaluating and to which the computer will respond and the format to which the code must be written ... in this case the language I am working in is Python.
+
  
 
 
