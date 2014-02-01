@@ -15,6 +15,21 @@ So the "Truth Statements" produce a True or False by using algebra to compare tw
 
 Problem is ... I was not getting it and the website Learn Python The Hard Way suggests that you just memorize the truth tables, which maybe be just sufficient for most people but, for me, that was not going to work. I enlisted the help of my son the programmer.
 
+The conversation with my son went somewhat like this.
+> So mom you understand what I just said right?
+
+Me: "Yes I think so...
+
+> So if you have True and False what will you get?
+
+Me: Uh...hmmm... and after a minute or two, True??
+> No it is False.
+
+Me: (Getting a little defensive) Well, I told you I am not getting it, I don't understand what it is I am supposed to be getting ... I don't have the aptitude for programming!!
+
+ 
+
+
  
 ![](http://i1205.photobucket.com/albums/bb424/cybercorp/GitHub%20Images/2014-01-30_1230_zps340c3e32.png)
 
