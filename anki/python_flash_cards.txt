@@ -44,4 +44,4 @@
 01.30.2014 The Truth Terms "==" -- 1 == 1 == True
 01.30.2014 The Truth Terms "==" -- 0 == 1 == False
 01.30.2014 The Truth Terms "==" -- 0 == 0 == True
-02.01.2014 What does the if statement do to the code under it? -- An if-statement creates what is called a "branch" in the code.
+02.01.2014 What does the if statement do to the code under it? -- An if-statement creates what is called a "branch" in the code. It tells your script, "If this boolean expression is True, then run the code under it, otherwise skip it."
