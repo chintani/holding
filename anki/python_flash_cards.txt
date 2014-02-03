@@ -45,3 +45,4 @@
 01.30.2014 The Truth Terms "==" -- 0 == 1 == False
 01.30.2014 The Truth Terms "==" -- 0 == 0 == True
 02.01.2014 What does the if statement do to the code under it? -- An if-statement creates what is called a "branch" in the code. It tells your script, "If this boolean expression is True, then run the code under it, otherwise skip it."
+02.02.2014 Why does the code under the if need to be indented four spaces? -- A colon at the end of a line is how you tell Python you are going to create a new "block" of code, and then indenting four spaces tells Python what lines of code are in that block. 
