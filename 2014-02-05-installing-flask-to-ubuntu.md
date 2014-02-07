@@ -17,3 +17,4 @@ Step 1:
 That produced the following processes as shown in the pictures below.
 
 ![Picture 1](http://i1205.photobucket.com/albums/bb424/cybercorp/GitHub%20Images/2014-02-06_2045_zps521e7627.png)
+![Picture 2](http://i1205.photobucket.com/albums/bb424/cybercorp/GitHub%20Images/2014-02-06_2052_zpsf39a08fe.png)
