@@ -24,7 +24,6 @@ That produced the following processes as shown in the pictures below.
 
 This concludes step 1.
 
-Step 2: `mkdir myproject`
+A look back at the images above and I have concluded that all went well with this install. It did a lot of "Getting, Unpacking, Selecting and Setting up" and during it all I did not see any errors. As a novice I have concluded that this install was a success and now on to the next step.
 
-		
-`cd myproject`
+Proceed to [Installing Flask to Ubuntu Step 2](http://# "Installing Flask to Ubuntu Step 2")
