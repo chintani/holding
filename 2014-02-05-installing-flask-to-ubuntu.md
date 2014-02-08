@@ -20,3 +20,11 @@ That produced the following processes as shown in the pictures below.
 ![Picture 2](http://i1205.photobucket.com/albums/bb424/cybercorp/GitHub%20Images/2014-02-06_2052_zpsf39a08fe.png)
 ![Picture 3](http://i1205.photobucket.com/albums/bb424/cybercorp/GitHub%20Images/2014-02-06_2054_zps23b9acb8.png)
 ![Picture 4](http://i1205.photobucket.com/albums/bb424/cybercorp/GitHub%20Images/2014-02-06_2059_zpseb380256.png)
+![Picture 5](http://i1205.photobucket.com/albums/bb424/cybercorp/GitHub%20Images/2014-02-06_2101_zps22e5b35d.png)
+
+This concludes step 1.
+
+Step 2: `mkdir myproject`
+
+		
+`cd myproject`
