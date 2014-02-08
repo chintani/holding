@@ -20,4 +20,13 @@ I followed the directions exactly with the exception of the project name. I name
 
 ![](http://i1205.photobucket.com/albums/bb424/cybercorp/GitHub%20Images/2014-02-06_2242_zps53e3cf29.png)
 
+Now is where everything blows up in my face ... or in the install. The website then says:
+> Now you can just enter the following command to get Flask activated in your virtualenv:
+
+> `$ pip install Flask`<br>
+> A few seconds later and you are good to go.
+
+Wellll ... a few seconds later and I was not good to go, I had errors all over the place as seen below.
+
+
 		
