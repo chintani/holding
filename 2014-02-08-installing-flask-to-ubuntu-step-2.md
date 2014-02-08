@@ -10,15 +10,12 @@ tags: [flask, python, learning python]
 I am still on the website to [install Flask](http://flask.pocoo.org/docs/installation/#installation) and I have completed the first step, see that [Here](http://#).
 
 The next step is as follows:
-> $ mkdir myproject 
-> $ cd myproject
-> $ virtualenv venv
-> New python executable in venv/bin/python
-> Installing distribute............done.
+> `$ mkdir myproject` <br>
+> `$ cd myproject` <br>
+> `$ virtualenv venv` <br>
+> `New python executable in venv/bin/python`<br>
+> `Installing distribute............done.`
 
-
-
-Step 2: `mkdir myproject`
+I followed the directions exactly with the exception of the project name. I named mine firstproject. The results were more or less the same. I got an "extra" **Installing pip ............done.** line. Picture below.
 
 		
-`cd myproject`
