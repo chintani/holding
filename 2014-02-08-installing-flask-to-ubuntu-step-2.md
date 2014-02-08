@@ -18,4 +18,6 @@ The next step is as follows:
 
 I followed the directions exactly with the exception of the project name. I named mine firstproject. The results were more or less the same. I got an "extra" **Installing pip ............done.** line. Picture below.
 
+![](http://i1205.photobucket.com/albums/bb424/cybercorp/GitHub%20Images/2014-02-06_2242_zps53e3cf29.png)
+
 		
