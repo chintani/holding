@@ -29,6 +29,4 @@ Now is where everything blows up in my face ... or in the install. The website t
 Wellll ... a few seconds later and I was not good to go, I had errors all over the place as seen below.
 
 ![](http://i1205.photobucket.com/albums/bb424/cybercorp/GitHub%20Images/2014-02-06_2318_zps168ffb67.png)
-
-
-		
+![](http://i1205.photobucket.com/albums/bb424/cybercorp/GitHub%20Images/2014-02-06_2319_zps656ef0a5.png)
