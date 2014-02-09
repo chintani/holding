@@ -36,3 +36,5 @@ Wellll ... a few seconds later and I was not good to go, I had errors all over t
 ![](http://i1205.photobucket.com/albums/bb424/cybercorp/GitHub%20Images/2014-02-06_2326_zps72588726.png)
 
 Since I am a novice I do not know what any of this means. Yet at the end of all of that it says *"Successfully installed Flask Werkzeug Jinja2 itsdangerous markupsafe"* Hmmm ... I don't know, sounds fishy to me but since it says it did, I will do the next step to see what I end up with.
+
+On to [Installing Flask to Ubuntu Final](http://# "Installing Flask to Ubuntu Final")
