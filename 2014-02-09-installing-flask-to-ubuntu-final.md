@@ -32,3 +32,10 @@ Yikes!! I am getting errors. Is it because Flask did not install correctly or di
 ![](http://i1205.photobucket.com/albums/bb424/cybercorp/GitHub%20Images/2014-02-09_1535_zpscb4ec3fc.png)
 
 Does it look like what is typed in the code above? Well apparently I did think it was correct because I dismissed it and went on to make other decisions in trying to find out how to fix the Flask install.
+
+To make a long story shorter ... there is a saying that goes like this:
+> A drowning man with catch at straw ...
+
+I was drowning in a sea of coding ignorance and I was catching at straws ... anything to pull me out of the pit I was in, so I began looking for solutions to my *Flask* problems. 
+
+I was running Python 2.7.4, so I said that was my problem and upgraded to 2.7.6. Since Python was not up-to-date, maybe *Flask* did not install correctly. Went to re-install *"Virtualenv"* and was told by the operating system that I already had the newest version installed ... Okkkk ...*Flask* and 
