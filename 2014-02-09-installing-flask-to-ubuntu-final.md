@@ -31,4 +31,4 @@ Yikes!! I am getting errors. Is it because Flask did not install correctly or di
 
 ![](http://i1205.photobucket.com/albums/bb424/cybercorp/GitHub%20Images/2014-02-09_1535_zpscb4ec3fc.png)
 
- 
+Does it look like what is typed in the code above? Well apparently I did think it was correct because I dismissed it and went on to make other decisions in trying to find out how to fix the Flask install.
