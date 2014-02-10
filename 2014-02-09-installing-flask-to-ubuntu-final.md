@@ -46,5 +46,5 @@ So in desperation I decided to take a second look at my *Hello World* program. H
 
 ![](http://i1205.photobucket.com/albums/bb424/cybercorp/GitHub%20Images/2014-02-09_1551_zpse6ebedbe.png)
 
-
+In my defense, I don't do black and white very well: words on a paper, the terminal window ... I live color, like the gedit editor and Windows. So if anyone ask, that's my story and I am sticking to it!
 
