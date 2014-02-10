@@ -24,3 +24,4 @@ I went to the [Quickstart page of Flask](http://flask.pocoo.org/docs/quickstart/
 Ok, they did not quite tell me how to go about making the file since the documentation was not written for novices.
 
 I remember trying to create a file in Linux a while back and it said use *"touch"* to create an empty file, so I did that and named it hello.py as it said in the instructions. Then I used *"pico"* to edit the file and typed the above code. Now it was time for me to run the code to test my Flask installation. And ...
+![](http://i1205.photobucket.com/albums/bb424/cybercorp/GitHub%20Images/2014-02-06_2358_zps07383f0a.png)
