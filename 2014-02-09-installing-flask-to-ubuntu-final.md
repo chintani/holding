@@ -40,4 +40,11 @@ I was drowning in a sea of coding ignorance and I was catching at straws ... any
 
 I was running Python 2.7.4, so I said that was my problem and upgraded to 2.7.6. Since Python was not up-to-date, maybe *Flask* did not install correctly. Went to re-install *Virtualenv* and was told by the operating system that I already had the newest version installed ... 
 
-Okkkk ... then it has to be *Flask* then and I proceeded to re-install that. The operating system told me that the Requirement [was] already satisfied for *Flask Werkzeug Jinja2 itsdangerous markupsafe* ...say what now? But, my Hello World program was still not working??
+Okkkk ... then it has to be *Flask* and I proceeded to re-install that. The operating system told me that the Requirement [was] already satisfied for *Flask Werkzeug Jinja2 itsdangerous markupsafe* ...say what now? But, my Hello World program was still not working??
+
+So in desperation I decided to take a second look at my *Hello World* program. Huh! I see a few thing that was not right! I fixed them to arrive at this:
+
+![](http://i1205.photobucket.com/albums/bb424/cybercorp/GitHub%20Images/2014-02-09_1551_zpse6ebedbe.png)
+
+
+
