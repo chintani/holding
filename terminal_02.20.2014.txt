@@ -1,0 +1,424 @@
+﻿Installing python in Linux
+
+tchin@HP-Mini-110-3000:~$ sudo apt-get install python-pip
+[sudo] password for tchin: 
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following extra packages will be installed:
+  python-setuptools
+The following NEW packages will be installed:
+  python-pip python-setuptools
+0 upgraded, 2 newly installed, 0 to remove and 0 not upgraded.
+Need to get 536 kB of archives.
+After this operation, 1,467 kB of additional disk space will be used.
+Do you want to continue [Y/n]? Y
+Get:1 http://us.archive.ubuntu.com/ubuntu/ precise/main python-setuptools all 0.6.24-1ubuntu1 [441 kB]
+Get:2 http://us.archive.ubuntu.com/ubuntu/ precise/universe python-pip all 1.0-1build1 [95.1 kB]
+Fetched 536 kB in 4s (114 kB/s)       
+Selecting previously unselected package python-setuptools.
+(Reading database ... 176744 files and directories currently installed.)
+Unpacking python-setuptools (from .../python-setuptools_0.6.24-1ubuntu1_all.deb) ...
+Selecting previously unselected package python-pip.
+Unpacking python-pip (from .../python-pip_1.0-1build1_all.deb) ...
+Processing triggers for man-db ...
+Setting up python-setuptools (0.6.24-1ubuntu1) ...
+Setting up python-pip (1.0-1build1) ...
+tchin@HP-Mini-110-3000:~$ pip install buster
+Downloading/unpacking buster
+  Downloading buster-0.1.2.tar.gz
+  Running setup.py egg_info for package buster
+    
+Downloading/unpacking GitPython==0.3.2.RC1 (from buster)
+  Downloading GitPython-0.3.2.RC1.tar.gz (313Kb): 313Kb downloaded
+  Running setup.py egg_info for package GitPython
+    
+    warning: no files found matching 'README'
+Downloading/unpacking async==0.6.1 (from buster)
+  Downloading async-0.6.1.tar.gz
+  Running setup.py egg_info for package async
+    
+Downloading/unpacking docopt==0.6.1 (from buster)
+  Downloading docopt-0.6.1.tar.gz
+  Running setup.py egg_info for package docopt
+    
+Downloading/unpacking gitdb==0.5.4 (from buster)
+  Downloading gitdb-0.5.4.tar.gz (50Kb): 50Kb downloaded
+  Running setup.py egg_info for package gitdb
+    
+Downloading/unpacking smmap==0.8.2 (from buster)
+  Downloading smmap-0.8.2.tar.gz
+  Running setup.py egg_info for package smmap
+    
+Installing collected packages: buster, GitPython, async, docopt, gitdb, smmap
+  Running setup.py install for buster
+    error: could not create '/usr/local/lib/python2.7/dist-packages/buster': Permission denied
+    Complete output from command /usr/bin/python -c "import setuptools;__file__='/home/tchin/build/buster/setup.py';exec(compile(open(__file__).read().replace('\r\n', '\n'), __file__, 'exec'))" install --single-version-externally-managed --record /tmp/pip-LSuLZf-record/install-record.txt:
+    running install
+
+running build
+
+running build_py
+
+creating build
+
+creating build/lib.linux-x86_64-2.7
+
+creating build/lib.linux-x86_64-2.7/buster
+
+copying buster/_version.py -> build/lib.linux-x86_64-2.7/buster
+
+copying buster/buster.py -> build/lib.linux-x86_64-2.7/buster
+
+copying buster/__init__.py -> build/lib.linux-x86_64-2.7/buster
+
+running install_lib
+
+creating /usr/local/lib/python2.7/dist-packages/buster
+
+error: could not create '/usr/local/lib/python2.7/dist-packages/buster': Permission denied
+
+----------------------------------------
+Command /usr/bin/python -c "import setuptools;__file__='/home/tchin/build/buster/setup.py';exec(compile(open(__file__).read().replace('\r\n', '\n'), __file__, 'exec'))" install --single-version-externally-managed --record /tmp/pip-LSuLZf-record/install-record.txt failed with error code 1
+Storing complete log in /home/tchin/.pip/pip.log
+tchin@HP-Mini-110-3000:~$ clear
+
+tchin@HP-Mini-110-3000:~$ ls
+build    Documents  examples.desktop        Music     Public     Videos
+Desktop  Downloads  mdcharm_1.1.6_i386.deb  Pictures  Templates
+tchin@HP-Mini-110-3000:~$ cd /Documents/
+bash: cd: /Documents/: No such file or directory
+tchin@HP-Mini-110-3000:~$ cd Documents/
+tchin@HP-Mini-110-3000:~/Documents$ ls
+adobe.flash  ghost-0.4.1-0  LINKS FOR GHOST BLOG.odt
+tchin@HP-Mini-110-3000:~/Documents$ cd ghost-0.4.1-0
+tchin@HP-Mini-110-3000:~/Documents/ghost-0.4.1-0$ ls
+apache2        config        manager-linux-x64.run  README.txt  uninstall.dat
+apps           ctlscript.sh  nodejs                 scripts     use_ghost
+changelog.txt  img           properties.ini         sqlite
+common         licenses      python                 uninstall
+tchin@HP-Mini-110-3000:~/Documents/ghost-0.4.1-0$ ctlscript.sh start
+ctlscript.sh: command not found
+tchin@HP-Mini-110-3000:~/Documents/ghost-0.4.1-0$ cs ~application-version
+The program 'cs' is currently not installed.  You can install it by typing:
+sudo apt-get install csound
+tchin@HP-Mini-110-3000:~/Documents/ghost-0.4.1-0$ cd ~/application-version
+bash: cd: /home/tchin/application-version: No such file or directory
+tchin@HP-Mini-110-3000:~/Documents/ghost-0.4.1-0$ ./ctlscript.sh start
+This script requires root privileges
+tchin@HP-Mini-110-3000:~/Documents/ghost-0.4.1-0$ sudo ./ctlscript.sh start
+[sudo] password for tchin: 
+warn:    --minUptime not set. Defaulting to: 1000ms
+warn:    --spinSleepTime not set. Your script will exit if it does not stay up for at least 1000ms
+info:    Forever processing file: index.js
+/home/tchin/Documents/ghost-0.4.1-0/apps/ghost/scripts/ctl.sh : Ghost started
+Syntax OK
+/home/tchin/Documents/ghost-0.4.1-0/apache2/scripts/ctl.sh : httpd started at port 80
+tchin@HP-Mini-110-3000:~/Documents/ghost-0.4.1-0$ cd ~/
+tchin@HP-Mini-110-3000:~$ buster setup
+buster: command not found
+tchin@HP-Mini-110-3000:~$ sudo pip install buster
+Downloading/unpacking buster
+  Running setup.py egg_info for package buster
+    
+Downloading/unpacking GitPython==0.3.2.RC1 (from buster)
+  Running setup.py egg_info for package GitPython
+    
+    warning: no files found matching 'README'
+Downloading/unpacking async==0.6.1 (from buster)
+  Running setup.py egg_info for package async
+    
+Downloading/unpacking docopt==0.6.1 (from buster)
+  Running setup.py egg_info for package docopt
+    
+Downloading/unpacking gitdb==0.5.4 (from buster)
+  Running setup.py egg_info for package gitdb
+    
+Downloading/unpacking smmap==0.8.2 (from buster)
+  Running setup.py egg_info for package smmap
+    
+Installing collected packages: buster, GitPython, async, docopt, gitdb, smmap
+  Running setup.py install for buster
+    
+    Installing buster script to /usr/local/bin
+  Running setup.py install for GitPython
+    
+    warning: no files found matching 'README'
+  Running setup.py install for async
+    building 'async.mod.zlib' extension
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -I/usr/include/python2.7 -c mod/zlibmodule.c -o build/temp.linux-x86_64-2.7/mod/zlibmodule.o
+    mod/zlibmodule.c:7:20: fatal error: Python.h: No such file or directory
+    compilation terminated.
+    Ignored failure when building extensions, pure python modules will be used instead
+    
+  Running setup.py install for docopt
+    
+  Running setup.py install for gitdb
+    building 'gitdb._perf' extension
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -Igitdb -I/usr/include/python2.7 -c gitdb/_fun.c -o build/temp.linux-x86_64-2.7/gitdb/_fun.o
+    gitdb/_fun.c:1:20: fatal error: Python.h: No such file or directory
+    compilation terminated.
+    Ignored failure when building extensions, pure python modules will be used instead
+    
+  Running setup.py install for smmap
+    
+Successfully installed buster GitPython async docopt gitdb smmap
+Cleaning up...
+tchin@HP-Mini-110-3000:~$ buster setup
+Enter the Github repository URL:
+https://github.com/chintani/chintani.github.io
+All set! You can generate and deploy now.
+tchin@HP-Mini-110-3000:~$ buster generate
+--2014-02-20 22:14:06--  http://local.tryghost.org/
+Resolving local.tryghost.org (local.tryghost.org)... failed: Name or service not known.
+wget: unable to resolve host address `local.tryghost.org'
+Converted 0 files in 0 seconds.
+tchin@HP-Mini-110-3000:~$ buster generate --domain=http://127.0.0.1
+--2014-02-20 22:17:00--  http://127.0.0.1/
+Connecting to 127.0.0.1:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 5379 (5.3K) [text/html]
+Saving to: `/home/tchin/static/index.html'
+
+100%[======================================>] 5,379       --.-K/s   in 0s      
+
+2014-02-20 22:17:00 (119 MB/s) - `/home/tchin/static/index.html' saved [5379/5379]
+
+Loading robots.txt; please ignore errors.
+--2014-02-20 22:17:00--  http://127.0.0.1/robots.txt
+Reusing existing connection to 127.0.0.1:80.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: /robots.txt/ [following]
+--2014-02-20 22:17:00--  http://127.0.0.1/robots.txt/
+Reusing existing connection to 127.0.0.1:80.
+HTTP request sent, awaiting response... 404 Not Found
+2014-02-20 22:17:00 ERROR 404: Not Found.
+
+--2014-02-20 22:17:00--  http://127.0.0.1/favicon.ico
+Reusing existing connection to 127.0.0.1:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 1086 (1.1K) [image/x-icon]
+Saving to: `/home/tchin/static/favicon.ico'
+
+100%[======================================>] 1,086       --.-K/s   in 0s      
+
+2014-02-20 22:17:00 (26.7 MB/s) - `/home/tchin/static/favicon.ico' saved [1086/1086]
+
+--2014-02-20 22:17:00--  http://127.0.0.1/assets/css/A.screen.css,qv=0594cbc284.pagespeed.cf.2zHWfFlYmY.css
+Reusing existing connection to 127.0.0.1:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 10289 (10K) [text/css]
+Saving to: `/home/tchin/static/assets/css/A.screen.css,qv=0594cbc284.pagespeed.cf.2zHWfFlYmY.css'
+
+100%[======================================>] 10,289      --.-K/s   in 0s      
+
+2014-02-20 22:17:00 (50.8 MB/s) - `/home/tchin/static/assets/css/A.screen.css,qv=0594cbc284.pagespeed.cf.2zHWfFlYmY.css' saved [10289/10289]
+
+--2014-02-20 22:17:00--  http://127.0.0.1/rss/
+Reusing existing connection to 127.0.0.1:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 4024 (3.9K) [text/xml]
+Saving to: `/home/tchin/static/rss/index.html'
+
+100%[======================================>] 4,024       --.-K/s   in 0s      
+
+2014-02-20 22:17:00 (71.5 MB/s) - `/home/tchin/static/rss/index.html' saved [4024/4024]
+
+--2014-02-20 22:17:00--  http://127.0.0.1/'http://127.0.0.1/?ModPagespeed=noscript'
+Reusing existing connection to 127.0.0.1:80.
+HTTP request sent, awaiting response... 404 Not Found
+2014-02-20 22:17:00 ERROR 404: Not Found.
+
+--2014-02-20 22:17:00--  http://127.0.0.1/?ModPagespeed=noscript
+Reusing existing connection to 127.0.0.1:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 4893 (4.8K) [text/html]
+Saving to: `/home/tchin/static/index.html?ModPagespeed=noscript'
+
+100%[======================================>] 4,893       --.-K/s   in 0s      
+
+2014-02-20 22:17:00 (161 MB/s) - `/home/tchin/static/index.html?ModPagespeed=noscript' saved [4893/4893]
+
+--2014-02-20 22:17:00--  http://127.0.0.1/welcome-to-ghost/
+Reusing existing connection to 127.0.0.1:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 9324 (9.1K) [text/html]
+Saving to: `/home/tchin/static/welcome-to-ghost/index.html'
+
+100%[======================================>] 9,324       --.-K/s   in 0s      
+
+2014-02-20 22:17:01 (49.4 MB/s) - `/home/tchin/static/welcome-to-ghost/index.html' saved [9324/9324]
+
+--2014-02-20 22:17:01--  http://127.0.0.1/shared/vendor/jquery/jquery.js,qv=0594cbc284.pagespeed.jm.ZzSiN_5Whq.js
+Reusing existing connection to 127.0.0.1:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 92977 (91K) [application/javascript]
+Saving to: `/home/tchin/static/shared/vendor/jquery/jquery.js,qv=0594cbc284.pagespeed.jm.ZzSiN_5Whq.js'
+
+100%[======================================>] 92,977      --.-K/s   in 0.002s  
+
+2014-02-20 22:17:01 (49.5 MB/s) - `/home/tchin/static/shared/vendor/jquery/jquery.js,qv=0594cbc284.pagespeed.jm.ZzSiN_5Whq.js' saved [92977/92977]
+
+--2014-02-20 22:17:01--  http://127.0.0.1/assets/js/jquery.fitvids.js?v=0594cbc284
+Reusing existing connection to 127.0.0.1:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 2781 (2.7K) [application/javascript]
+Saving to: `/home/tchin/static/assets/js/jquery.fitvids.js?v=0594cbc284'
+
+100%[======================================>] 2,781       --.-K/s   in 0.04s   
+
+2014-02-20 22:17:01 (74.3 KB/s) - `/home/tchin/static/assets/js/jquery.fitvids.js?v=0594cbc284' saved [2781/2781]
+
+--2014-02-20 22:17:01--  http://127.0.0.1/assets/css/normalize.css
+Reusing existing connection to 127.0.0.1:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 7545 (7.4K) [text/css]
+Saving to: `/home/tchin/static/assets/css/normalize.css'
+
+100%[======================================>] 7,545       --.-K/s   in 0.04s   
+
+2014-02-20 22:17:01 (190 KB/s) - `/home/tchin/static/assets/css/normalize.css' saved [7545/7545]
+
+--2014-02-20 22:17:01--  http://127.0.0.1/assets/fonts/icons.eot
+Reusing existing connection to 127.0.0.1:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 2252 (2.2K) [application/vnd.ms-fontobject]
+Saving to: `/home/tchin/static/assets/fonts/icons.eot'
+
+100%[======================================>] 2,252       --.-K/s   in 0.04s   
+
+2014-02-20 22:17:01 (52.6 KB/s) - `/home/tchin/static/assets/fonts/icons.eot' saved [2252/2252]
+
+--2014-02-20 22:17:01--  http://127.0.0.1/assets/fonts/icons.eot?
+Reusing existing connection to 127.0.0.1:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 2252 (2.2K) [application/vnd.ms-fontobject]
+Saving to: `/home/tchin/static/assets/fonts/icons.eot'
+
+100%[======================================>] 2,252       --.-K/s   in 0.04s   
+
+2014-02-20 22:17:01 (59.7 KB/s) - `/home/tchin/static/assets/fonts/icons.eot' saved [2252/2252]
+
+--2014-02-20 22:17:01--  http://127.0.0.1/assets/fonts/icons.woff
+Reusing existing connection to 127.0.0.1:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 2656 (2.6K) [application/font-woff]
+Saving to: `/home/tchin/static/assets/fonts/icons.woff'
+
+100%[======================================>] 2,656       --.-K/s   in 0.04s   
+
+2014-02-20 22:17:01 (67.3 KB/s) - `/home/tchin/static/assets/fonts/icons.woff' saved [2656/2656]
+
+--2014-02-20 22:17:01--  http://127.0.0.1/assets/fonts/icons.ttf
+Reusing existing connection to 127.0.0.1:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 2096 (2.0K) [application/x-font-ttf]
+Saving to: `/home/tchin/static/assets/fonts/icons.ttf'
+
+100%[======================================>] 2,096       --.-K/s   in 0.04s   
+
+2014-02-20 22:17:01 (53.3 KB/s) - `/home/tchin/static/assets/fonts/icons.ttf' saved [2096/2096]
+
+--2014-02-20 22:17:01--  http://127.0.0.1/assets/fonts/icons.svg
+Reusing existing connection to 127.0.0.1:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 4397 (4.3K) [image/svg+xml]
+Saving to: `/home/tchin/static/assets/fonts/icons.svg'
+
+100%[======================================>] 4,397       --.-K/s   in 0.04s   
+
+2014-02-20 22:17:01 (121 KB/s) - `/home/tchin/static/assets/fonts/icons.svg' saved [4397/4397]
+
+--2014-02-20 22:17:01--  http://127.0.0.1/assets/css/screen.css?v=0594cbc284
+Reusing existing connection to 127.0.0.1:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 18659 (18K) [text/css]
+Saving to: `/home/tchin/static/assets/css/screen.css?v=0594cbc284'
+
+100%[======================================>] 18,659      --.-K/s   in 0.04s   
+
+2014-02-20 22:17:01 (491 KB/s) - `/home/tchin/static/assets/css/screen.css?v=0594cbc284' saved [18659/18659]
+
+--2014-02-20 22:17:01--  http://127.0.0.1/shared/vendor/jquery/jquery.js?v=0594cbc284
+Reusing existing connection to 127.0.0.1:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 93064 (91K) [application/javascript]
+Saving to: `/home/tchin/static/shared/vendor/jquery/jquery.js?v=0594cbc284'
+
+100%[======================================>] 93,064      --.-K/s   in 0.04s   
+
+2014-02-20 22:17:01 (2.39 MB/s) - `/home/tchin/static/shared/vendor/jquery/jquery.js?v=0594cbc284' saved [93064/93064]
+
+--2014-02-20 22:17:01--  http://127.0.0.1/assets/js/index.js?v=0594cbc284
+Reusing existing connection to 127.0.0.1:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 206 [application/javascript]
+Saving to: `/home/tchin/static/assets/js/index.js?v=0594cbc284'
+
+100%[======================================>] 206         --.-K/s   in 0.04s   
+
+2014-02-20 22:17:01 (4.72 KB/s) - `/home/tchin/static/assets/js/index.js?v=0594cbc284' saved [206/206]
+
+--2014-02-20 22:17:01--  http://127.0.0.1/welcome-to-ghost/'http://127.0.0.1/welcome-to-ghost/?ModPagespeed=noscript'
+Reusing existing connection to 127.0.0.1:80.
+HTTP request sent, awaiting response... 404 Not Found
+2014-02-20 22:17:01 ERROR 404: Not Found.
+
+--2014-02-20 22:17:01--  http://127.0.0.1/welcome-to-ghost/?ModPagespeed=noscript
+Reusing existing connection to 127.0.0.1:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 8972 (8.8K) [text/html]
+Saving to: `/home/tchin/static/welcome-to-ghost/index.html?ModPagespeed=noscript'
+
+100%[======================================>] 8,972       --.-K/s   in 0s      
+
+2014-02-20 22:17:01 (58.5 MB/s) - `/home/tchin/static/welcome-to-ghost/index.html?ModPagespeed=noscript' saved [8972/8972]
+
+FINISHED --2014-02-20 22:17:01--
+Total wall clock time: 1.3s
+Downloaded: 18 files, 266K in 0.4s (691 KB/s)
+Converting /home/tchin/static/index.html... 7-2
+Converting /home/tchin/static/index.html?ModPagespeed=noscript... 7-1
+Converting /home/tchin/static/welcome-to-ghost/index.html... 6-2
+Converting /home/tchin/static/welcome-to-ghost/index.html?ModPagespeed=noscript... 5-1
+Converting /home/tchin/static/assets/css/normalize.css... nothing to do.
+Converting /home/tchin/static/assets/css/screen.css?v=0594cbc284... 5-1
+Converting /home/tchin/static/assets/css/A.screen.css,qv=0594cbc284.pagespeed.cf.2zHWfFlYmY.css... 5-1
+Converted 7 files in 0.008 seconds.
+Rename index.html?ModPagespeed=noscript => index.html
+Rename jquery.js?v=0594cbc284 => jquery.js
+Rename index.js?v=0594cbc284 => index.js
+Rename jquery.fitvids.js?v=0594cbc284 => jquery.fitvids.js
+Rename screen.css?v=0594cbc284 => screen.css
+Rename index.html?ModPagespeed=noscript => index.html
+tchin@HP-Mini-110-3000:~$ buster preview
+Serving at port 9000
+localhost - - [20/Feb/2014 22:21:26] "GET / HTTP/1.1" 200 -
+localhost - - [20/Feb/2014 22:21:26] "GET /assets/css/screen.css?v=0594cbc284 HTTP/1.1" 200 -
+localhost - - [20/Feb/2014 22:21:26] "GET /shared/vendor/jquery/jquery.js?v=0594cbc284 HTTP/1.1" 200 -
+localhost - - [20/Feb/2014 22:21:26] "GET /assets/js/jquery.fitvids.js?v=0594cbc284 HTTP/1.1" 200 -
+localhost - - [20/Feb/2014 22:21:26] "GET /assets/js/index.js?v=0594cbc284 HTTP/1.1" 200 -
+localhost - - [20/Feb/2014 22:21:26] "GET /assets/css/normalize.css HTTP/1.1" 200 -
+localhost - - [20/Feb/2014 22:21:26] "GET /favicon.ico HTTP/1.1" 200 -
+localhost - - [20/Feb/2014 22:21:26] "GET /assets/fonts/icons.woff HTTP/1.1" 200 -
+buster deploy
+localhost - - [20/Feb/2014 22:25:02] "GET / HTTP/1.1" 200 -
+localhost - - [20/Feb/2014 22:25:02] "GET /assets/css/screen.css?v=0594cbc284 HTTP/1.1" 200 -
+localhost - - [20/Feb/2014 22:25:02] "GET /shared/vendor/jquery/jquery.js?v=0594cbc284 HTTP/1.1" 200 -
+localhost - - [20/Feb/2014 22:25:02] "GET /assets/js/jquery.fitvids.js?v=0594cbc284 HTTP/1.1" 200 -
+localhost - - [20/Feb/2014 22:25:02] "GET /assets/js/index.js?v=0594cbc284 HTTP/1.1" 200 -
+localhost - - [20/Feb/2014 22:25:02] "GET /assets/css/normalize.css HTTP/1.1" 200 -
+localhost - - [20/Feb/2014 22:37:03] "GET / HTTP/1.1" 200 -
+localhost - - [20/Feb/2014 22:37:03] "GET /assets/css/screen.css?v=0594cbc284 HTTP/1.1" 200 -
+localhost - - [20/Feb/2014 22:37:03] "GET /shared/vendor/jquery/jquery.js?v=0594cbc284 HTTP/1.1" 200 -
+localhost - - [20/Feb/2014 22:37:03] "GET /assets/js/jquery.fitvids.js?v=0594cbc284 HTTP/1.1" 200 -
+localhost - - [20/Feb/2014 22:37:03] "GET /assets/js/index.js?v=0594cbc284 HTTP/1.1" 200 -
+localhost - - [20/Feb/2014 22:37:03] "GET /assets/css/normalize.css HTTP/1.1" 200 -
+buster deploy
+localhost - - [20/Feb/2014 22:45:20] "GET / HTTP/1.1" 200 -
+localhost - - [20/Feb/2014 22:45:20] "GET /assets/css/screen.css?v=0594cbc284 HTTP/1.1" 200 -
+localhost - - [20/Feb/2014 22:45:20] "GET /shared/vendor/jquery/jquery.js?v=0594cbc284 HTTP/1.1" 200 -
+localhost - - [20/Feb/2014 22:45:20] "GET /assets/js/jquery.fitvids.js?v=0594cbc284 HTTP/1.1" 200 -
+localhost - - [20/Feb/2014 22:45:20] "GET /assets/js/index.js?v=0594cbc284 HTTP/1.1" 200 -
+localhost - - [20/Feb/2014 22:45:20] "GET /assets/css/normalize.css HTTP/1.1" 200 -
+buster setup
