@@ -1,0 +1,217 @@
+tchin@HP-Mini-110-3000:~$ buster setup
+Enter the Github repository URL:
+https://github.com/chintani/chintani.github.io.git
+This will destroy everything inside static/. Are you sure you want to continue? (y/N)y
+All set! You can generate and deploy now.
+tchin@HP-Mini-110-3000:~$ buster generate --domain=http://127.0.0.1
+--2014-02-20 22:56:14--  http://127.0.0.1/
+Connecting to 127.0.0.1:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 5379 (5.3K) [text/html]
+Saving to: `/home/tchin/static/index.html'
+
+100%[======================================>] 5,379       --.-K/s   in 0s      
+
+2014-02-20 22:56:14 (118 MB/s) - `/home/tchin/static/index.html' saved [5379/5379]
+
+Loading robots.txt; please ignore errors.
+--2014-02-20 22:56:14--  http://127.0.0.1/robots.txt
+Reusing existing connection to 127.0.0.1:80.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: /robots.txt/ [following]
+--2014-02-20 22:56:14--  http://127.0.0.1/robots.txt/
+Reusing existing connection to 127.0.0.1:80.
+HTTP request sent, awaiting response... 404 Not Found
+2014-02-20 22:56:14 ERROR 404: Not Found.
+
+--2014-02-20 22:56:14--  http://127.0.0.1/favicon.ico
+Reusing existing connection to 127.0.0.1:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 1086 (1.1K) [image/x-icon]
+Saving to: `/home/tchin/static/favicon.ico'
+
+100%[======================================>] 1,086       --.-K/s   in 0s      
+
+2014-02-20 22:56:14 (38.1 MB/s) - `/home/tchin/static/favicon.ico' saved [1086/1086]
+
+--2014-02-20 22:56:14--  http://127.0.0.1/assets/css/A.screen.css,qv=0594cbc284.pagespeed.cf.2zHWfFlYmY.css
+Reusing existing connection to 127.0.0.1:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 10289 (10K) [text/css]
+Saving to: `/home/tchin/static/assets/css/A.screen.css,qv=0594cbc284.pagespeed.cf.2zHWfFlYmY.css'
+
+100%[======================================>] 10,289      --.-K/s   in 0s      
+
+2014-02-20 22:56:14 (45.4 MB/s) - `/home/tchin/static/assets/css/A.screen.css,qv=0594cbc284.pagespeed.cf.2zHWfFlYmY.css' saved [10289/10289]
+
+--2014-02-20 22:56:14--  http://127.0.0.1/rss/
+Reusing existing connection to 127.0.0.1:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 4024 (3.9K) [text/xml]
+Saving to: `/home/tchin/static/rss/index.html'
+
+100%[======================================>] 4,024       --.-K/s   in 0s      
+
+2014-02-20 22:56:14 (99.5 MB/s) - `/home/tchin/static/rss/index.html' saved [4024/4024]
+
+--2014-02-20 22:56:14--  http://127.0.0.1/'http://127.0.0.1/?ModPagespeed=noscript'
+Reusing existing connection to 127.0.0.1:80.
+HTTP request sent, awaiting response... 404 Not Found
+2014-02-20 22:56:14 ERROR 404: Not Found.
+
+--2014-02-20 22:56:14--  http://127.0.0.1/?ModPagespeed=noscript
+Reusing existing connection to 127.0.0.1:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 5028 (4.9K) [text/html]
+Saving to: `/home/tchin/static/index.html?ModPagespeed=noscript'
+
+100%[======================================>] 5,028       --.-K/s   in 0s      
+
+2014-02-20 22:56:14 (163 MB/s) - `/home/tchin/static/index.html?ModPagespeed=noscript' saved [5028/5028]
+
+--2014-02-20 22:56:14--  http://127.0.0.1/welcome-to-ghost/
+Reusing existing connection to 127.0.0.1:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 9324 (9.1K) [text/html]
+Saving to: `/home/tchin/static/welcome-to-ghost/index.html'
+
+100%[======================================>] 9,324       --.-K/s   in 0s      
+
+2014-02-20 22:56:14 (57.2 MB/s) - `/home/tchin/static/welcome-to-ghost/index.html' saved [9324/9324]
+
+--2014-02-20 22:56:14--  http://127.0.0.1/shared/vendor/jquery/jquery.js,qv=0594cbc284.pagespeed.jm.ZzSiN_5Whq.js
+Reusing existing connection to 127.0.0.1:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 92977 (91K) [application/javascript]
+Saving to: `/home/tchin/static/shared/vendor/jquery/jquery.js,qv=0594cbc284.pagespeed.jm.ZzSiN_5Whq.js'
+
+100%[======================================>] 92,977      --.-K/s   in 0.001s  
+
+2014-02-20 22:56:14 (68.8 MB/s) - `/home/tchin/static/shared/vendor/jquery/jquery.js,qv=0594cbc284.pagespeed.jm.ZzSiN_5Whq.js' saved [92977/92977]
+
+--2014-02-20 22:56:14--  http://127.0.0.1/assets/js/jquery.fitvids.js?v=0594cbc284
+Reusing existing connection to 127.0.0.1:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 2781 (2.7K) [application/javascript]
+Saving to: `/home/tchin/static/assets/js/jquery.fitvids.js?v=0594cbc284'
+
+100%[======================================>] 2,781       --.-K/s   in 0.05s   
+
+2014-02-20 22:56:14 (55.7 KB/s) - `/home/tchin/static/assets/js/jquery.fitvids.js?v=0594cbc284' saved [2781/2781]
+
+--2014-02-20 22:56:14--  http://127.0.0.1/assets/css/normalize.css
+Reusing existing connection to 127.0.0.1:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 7545 (7.4K) [text/css]
+Saving to: `/home/tchin/static/assets/css/normalize.css'
+
+100%[======================================>] 7,545       --.-K/s   in 0.04s   
+
+2014-02-20 22:56:14 (191 KB/s) - `/home/tchin/static/assets/css/normalize.css' saved [7545/7545]
+
+--2014-02-20 22:56:14--  http://127.0.0.1/assets/fonts/icons.eot
+Reusing existing connection to 127.0.0.1:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 2252 (2.2K) [application/vnd.ms-fontobject]
+Saving to: `/home/tchin/static/assets/fonts/icons.eot'
+
+100%[======================================>] 2,252       --.-K/s   in 0.04s   
+
+2014-02-20 22:56:14 (61.2 KB/s) - `/home/tchin/static/assets/fonts/icons.eot' saved [2252/2252]
+
+--2014-02-20 22:56:14--  http://127.0.0.1/assets/fonts/icons.eot?
+Reusing existing connection to 127.0.0.1:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 2252 (2.2K) [application/vnd.ms-fontobject]
+Saving to: `/home/tchin/static/assets/fonts/icons.eot'
+
+100%[======================================>] 2,252       --.-K/s   in 0.04s   
+
+2014-02-20 22:56:14 (62.5 KB/s) - `/home/tchin/static/assets/fonts/icons.eot' saved [2252/2252]
+
+--2014-02-20 22:56:14--  http://127.0.0.1/assets/fonts/icons.woff
+Reusing existing connection to 127.0.0.1:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 2656 (2.6K) [application/font-woff]
+Saving to: `/home/tchin/static/assets/fonts/icons.woff'
+
+100%[======================================>] 2,656       --.-K/s   in 0.04s   
+
+2014-02-20 22:56:14 (73.6 KB/s) - `/home/tchin/static/assets/fonts/icons.woff' saved [2656/2656]
+
+--2014-02-20 22:56:14--  http://127.0.0.1/assets/fonts/icons.ttf
+Reusing existing connection to 127.0.0.1:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 2096 (2.0K) [application/x-font-ttf]
+Saving to: `/home/tchin/static/assets/fonts/icons.ttf'
+
+100%[======================================>] 2,096       --.-K/s   in 0.04s   
+
+2014-02-20 22:56:14 (57.0 KB/s) - `/home/tchin/static/assets/fonts/icons.ttf' saved [2096/2096]
+
+--2014-02-20 22:56:14--  http://127.0.0.1/assets/fonts/icons.svg
+Reusing existing connection to 127.0.0.1:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 4397 (4.3K) [image/svg+xml]
+Saving to: `/home/tchin/static/assets/fonts/icons.svg'
+
+100%[======================================>] 4,397       --.-K/s   in 0.04s   
+
+2014-02-20 22:56:14 (112 KB/s) - `/home/tchin/static/assets/fonts/icons.svg' saved [4397/4397]
+
+--2014-02-20 22:56:14--  http://127.0.0.1/assets/js/index.js,qv=0594cbc284.pagespeed.jm.aydv8-18dc.js
+Reusing existing connection to 127.0.0.1:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 98 [application/javascript]
+Saving to: `/home/tchin/static/assets/js/index.js,qv=0594cbc284.pagespeed.jm.aydv8-18dc.js'
+
+100%[======================================>] 98          --.-K/s   in 0s      
+
+2014-02-20 22:56:14 (3.16 MB/s) - `/home/tchin/static/assets/js/index.js,qv=0594cbc284.pagespeed.jm.aydv8-18dc.js' saved [98/98]
+
+--2014-02-20 22:56:14--  http://127.0.0.1/welcome-to-ghost/'http://127.0.0.1/welcome-to-ghost/?ModPagespeed=noscript'
+Reusing existing connection to 127.0.0.1:80.
+HTTP request sent, awaiting response... 404 Not Found
+2014-02-20 22:56:14 ERROR 404: Not Found.
+
+--2014-02-20 22:56:14--  http://127.0.0.1/welcome-to-ghost/?ModPagespeed=noscript
+Reusing existing connection to 127.0.0.1:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 8972 (8.8K) [text/html]
+Saving to: `/home/tchin/static/welcome-to-ghost/index.html?ModPagespeed=noscript'
+
+100%[======================================>] 8,972       --.-K/s   in 0s      
+
+2014-02-20 22:56:14 (59.4 MB/s) - `/home/tchin/static/welcome-to-ghost/index.html?ModPagespeed=noscript' saved [8972/8972]
+
+FINISHED --2014-02-20 22:56:14--
+Total wall clock time: 0.7s
+Downloaded: 16 files, 157K in 0.3s (583 KB/s)
+Converting /home/tchin/static/index.html... 7-2
+Converting /home/tchin/static/index.html?ModPagespeed=noscript... 7-1
+Converting /home/tchin/static/welcome-to-ghost/index.html... 6-2
+Converting /home/tchin/static/welcome-to-ghost/index.html?ModPagespeed=noscript... 5-1
+Converting /home/tchin/static/assets/css/normalize.css... nothing to do.
+Converting /home/tchin/static/assets/css/A.screen.css,qv=0594cbc284.pagespeed.cf.2zHWfFlYmY.css... 5-1
+Converted 6 files in 0.006 seconds.
+Rename index.html?ModPagespeed=noscript => index.html
+Rename jquery.fitvids.js?v=0594cbc284 => jquery.fitvids.js
+Rename index.html?ModPagespeed=noscript => index.html
+tchin@HP-Mini-110-3000:~$ buster preview
+Traceback (most recent call last):
+  File "/usr/local/bin/buster", line 9, in <module>
+    load_entry_point('buster==0.1.2', 'console_scripts', 'buster')()
+  File "/usr/local/lib/python2.7/dist-packages/buster/buster.py", line 62, in main
+    httpd = SocketServer.TCPServer(("", 9000), Handler)
+  File "/usr/lib/python2.7/SocketServer.py", line 408, in __init__
+    self.server_bind()
+  File "/usr/lib/python2.7/SocketServer.py", line 419, in server_bind
+    self.socket.bind(self.server_address)
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+socket.error: [Errno 98] Address already in use
+tchin@HP-Mini-110-3000:~$ buster deploy
+Username for 'https://github.com': chintani        
+Password for 'https://chintani@github.com': 
+Good job! Deployed to Github Pages.
+tchin@HP-Mini-110-3000:~$ 
