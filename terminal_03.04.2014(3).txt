@@ -1,0 +1,621 @@
+tchin@HP-Mini-110-3000:~$ ls
+Desktop    examples.desktop        Pictures            static     Videos
+Documents  mdcharm_1.1.6_i386.deb  programming-novice  Templates
+Downloads  Music                   Public              tmp
+tchin@HP-Mini-110-3000:~$ dirName="programming-novice"
+tchin@HP-Mini-110-3000:~$ sudo git clone "https://github.com/TryGhost/Ghost.git" $dirName
+[sudo] password for tchin: 
+Cloning into 'programming-novice'...
+remote: Reusing existing pack: 16910, done.
+remote: Total 16910 (delta 0), reused 0 (delta 0)
+Receiving objects: 100% (16910/16910), 8.69 MiB | 337 KiB/s, done.
+Resolving deltas: 100% (8780/8780), done.
+tchin@HP-Mini-110-3000:~$ cd programming-novice
+tchin@HP-Mini-110-3000:~/programming-novice$ sudo git submodule update --init
+Submodule 'content/themes/casper' (git://github.com/TryGhost/Casper.git) registered for path 'content/themes/casper'
+Cloning into 'content/themes/casper'...
+remote: Reusing existing pack: 741, done.
+remote: Total 741 (delta 0), reused 0 (delta 0)
+Receiving objects: 100% (741/741), 578.97 KiB | 457 KiB/s, done.
+Resolving deltas: 100% (248/248), done.
+Submodule path 'content/themes/casper': checked out '3c1b7d68ec63f7cf7621f3aa8e30b5c01961e145'
+tchin@HP-Mini-110-3000:~/programming-novice$
+
+tchin@HP-Mini-110-3000:~/programming-novice$ sudo npm install -g grunt-cli
+npm http GET https://registry.npmjs.org/grunt-cli
+npm http 304 https://registry.npmjs.org/grunt-cli
+npm http GET https://registry.npmjs.org/findup-sync
+npm http GET https://registry.npmjs.org/resolve
+npm http GET https://registry.npmjs.org/nopt
+npm http 304 https://registry.npmjs.org/findup-sync
+npm http 304 https://registry.npmjs.org/resolve
+npm http 304 https://registry.npmjs.org/nopt
+npm http GET https://registry.npmjs.org/lodash
+npm http GET https://registry.npmjs.org/abbrev
+npm http GET https://registry.npmjs.org/glob
+npm http 304 https://registry.npmjs.org/lodash
+npm http 304 https://registry.npmjs.org/glob
+npm http 304 https://registry.npmjs.org/abbrev
+npm http GET https://registry.npmjs.org/minimatch
+npm http GET https://registry.npmjs.org/graceful-fs
+npm http GET https://registry.npmjs.org/inherits
+npm http 304 https://registry.npmjs.org/minimatch
+npm http 304 https://registry.npmjs.org/graceful-fs
+npm http 304 https://registry.npmjs.org/inherits
+npm http GET https://registry.npmjs.org/lru-cache
+npm http GET https://registry.npmjs.org/sigmund
+npm http 304 https://registry.npmjs.org/sigmund
+npm http 304 https://registry.npmjs.org/lru-cache
+/usr/bin/grunt -> /usr/lib/node_modules/grunt-cli/bin/grunt
+grunt-cli@0.1.13 /usr/lib/node_modules/grunt-cli
+├── resolve@0.3.1
+├── nopt@1.0.10 (abbrev@1.0.4)
+└── findup-sync@0.1.2 (lodash@1.0.1, glob@3.1.21)
+tchin@HP-Mini-110-3000:~/programming-novice$ 
+
+
+npm http 304 https://registry.npmjs.org/mute-stream
+npm http GET https://registry.npmjs.org/nopt
+npm http 304 https://registry.npmjs.org/nopt
+npm http GET https://registry.npmjs.org/async
+npm http GET https://registry.npmjs.org/bower-config
+npm http GET https://registry.npmjs.org/request-replay
+npm http 304 https://registry.npmjs.org/bower-config
+npm http 304 https://registry.npmjs.org/request-replay
+npm http 304 https://registry.npmjs.org/async
+npm http GET https://registry.npmjs.org/redeyed
+npm http GET https://registry.npmjs.org/ansicolors
+npm http GET https://registry.npmjs.org/commander/2.0.0
+npm http GET https://registry.npmjs.org/mkdirp
+npm http GET https://registry.npmjs.org/with
+npm http GET https://registry.npmjs.org/transformers/2.1.0
+npm http GET https://registry.npmjs.org/monocle/1.1.50
+npm http GET https://registry.npmjs.org/constantinople
+npm http GET https://registry.npmjs.org/character-parser/1.2.0
+npm http 304 https://registry.npmjs.org/redeyed
+npm http 304 https://registry.npmjs.org/commander/2.0.0
+npm http 304 https://registry.npmjs.org/with
+npm http 304 https://registry.npmjs.org/ansicolors
+npm http 304 https://registry.npmjs.org/transformers/2.1.0
+npm http 304 https://registry.npmjs.org/mkdirp
+npm http 304 https://registry.npmjs.org/monocle/1.1.50
+npm http 304 https://registry.npmjs.org/constantinople
+npm http 304 https://registry.npmjs.org/character-parser/1.2.0
+npm http GET https://registry.npmjs.org/block-stream
+npm http 304 https://registry.npmjs.org/block-stream
+npm http GET https://registry.npmjs.org/lru-cache
+npm http GET https://registry.npmjs.org/sigmund
+npm http GET https://registry.npmjs.org/minimist
+npm http GET https://registry.npmjs.org/domelementtype
+npm http GET https://registry.npmjs.org/domutils
+npm http GET https://registry.npmjs.org/domhandler
+npm http 304 https://registry.npmjs.org/sigmund
+npm http 304 https://registry.npmjs.org/lru-cache
+npm http GET https://registry.npmjs.org/optimist
+npm http GET https://registry.npmjs.org/uglify-js
+npm http 304 https://registry.npmjs.org/domhandler
+npm http 304 https://registry.npmjs.org/uglify-js
+npm http 304 https://registry.npmjs.org/minimist
+npm http 304 https://registry.npmjs.org/domutils
+npm http 304 https://registry.npmjs.org/domelementtype
+npm http 304 https://registry.npmjs.org/optimist
+npm http GET https://registry.npmjs.org/source-map
+npm http GET https://registry.npmjs.org/optimist
+npm http GET https://registry.npmjs.org/uglify-to-browserify
+npm http GET https://registry.npmjs.org/core-util-is
+npm http GET https://registry.npmjs.org/debuglog/0.0.2
+npm http GET https://registry.npmjs.org/string_decoder
+npm http 304 https://registry.npmjs.org/source-map
+npm http 304 https://registry.npmjs.org/optimist
+npm http 304 https://registry.npmjs.org/uglify-to-browserify
+npm http 304 https://registry.npmjs.org/core-util-is
+npm http 304 https://registry.npmjs.org/debuglog/0.0.2
+npm http 304 https://registry.npmjs.org/string_decoder
+npm http GET https://registry.npmjs.org/uglify-js/2.4.0
+npm http 304 https://registry.npmjs.org/uglify-js/2.4.0
+npm http GET https://registry.npmjs.org/mout
+npm http 304 https://registry.npmjs.org/mout
+npm http GET https://registry.npmjs.org/css
+npm http GET https://registry.npmjs.org/promise
+npm http GET https://registry.npmjs.org/chainsaw
+npm http GET https://registry.npmjs.org/buffers
+npm http 304 https://registry.npmjs.org/promise
+npm http 304 https://registry.npmjs.org/css
+npm http GET https://registry.npmjs.org/minimatch
+npm http GET https://registry.npmjs.org/inherits
+npm http 304 https://registry.npmjs.org/chainsaw
+npm http GET https://registry.npmjs.org/lodash
+npm http 304 https://registry.npmjs.org/buffers
+npm http GET https://registry.npmjs.org/mute-stream/0.0.3
+npm http GET https://registry.npmjs.org/cli-color
+npm http 304 https://registry.npmjs.org/inherits
+npm http 304 https://registry.npmjs.org/minimatch
+npm http 304 https://registry.npmjs.org/lodash
+npm http 304 https://registry.npmjs.org/mute-stream/0.0.3
+npm http 304 https://registry.npmjs.org/cli-color
+npm http GET https://registry.npmjs.org/readdirp
+npm http 304 https://registry.npmjs.org/readdirp
+npm http GET https://registry.npmjs.org/is-promise
+npm http GET https://registry.npmjs.org/argparse
+npm http GET https://registry.npmjs.org/esprima
+npm http 304 https://registry.npmjs.org/is-promise
+npm http GET https://registry.npmjs.org/css-parse/1.0.4
+npm http GET https://registry.npmjs.org/css-stringify/1.0.5
+npm http 304 https://registry.npmjs.org/argparse
+npm http 304 https://registry.npmjs.org/esprima
+npm http 304 https://registry.npmjs.org/css-stringify/1.0.5
+npm http 304 https://registry.npmjs.org/css-parse/1.0.4
+npm http GET https://registry.npmjs.org/traverse
+npm http GET https://registry.npmjs.org/mime
+npm http GET https://registry.npmjs.org/form-data
+npm http GET https://registry.npmjs.org/qs
+npm http GET https://registry.npmjs.org/json-stringify-safe
+npm http GET https://registry.npmjs.org/forever-agent
+npm http GET https://registry.npmjs.org/tunnel-agent
+npm http GET https://registry.npmjs.org/http-signature
+npm http GET https://registry.npmjs.org/hawk
+npm http GET https://registry.npmjs.org/oauth-sign
+npm http GET https://registry.npmjs.org/cookie-jar
+npm http 304 https://registry.npmjs.org/traverse
+npm http GET https://registry.npmjs.org/aws-sign
+npm http 304 https://registry.npmjs.org/forever-agent
+npm http 304 https://registry.npmjs.org/tunnel-agent
+npm http 304 https://registry.npmjs.org/json-stringify-safe
+npm http 304 https://registry.npmjs.org/http-signature
+npm http 304 https://registry.npmjs.org/form-data
+npm http 304 https://registry.npmjs.org/mime
+npm http 304 https://registry.npmjs.org/hawk
+npm http 304 https://registry.npmjs.org/oauth-sign
+npm http 304 https://registry.npmjs.org/cookie-jar
+npm http 304 https://registry.npmjs.org/aws-sign
+npm http 200 https://registry.npmjs.org/qs
+npm http GET https://registry.npmjs.org/wordwrap
+npm http 304 https://registry.npmjs.org/wordwrap
+npm http GET https://registry.npmjs.org/sigmund
+npm http 304 https://registry.npmjs.org/sigmund
+npm http GET https://registry.npmjs.org/minimist
+npm http GET https://registry.npmjs.org/combined-stream
+npm http GET https://registry.npmjs.org/async
+npm http 304 https://registry.npmjs.org/minimist
+npm http 304 https://registry.npmjs.org/async
+npm http 304 https://registry.npmjs.org/combined-stream
+npm http GET https://registry.npmjs.org/es5-ext
+npm http GET https://registry.npmjs.org/memoizee
+npm http 304 https://registry.npmjs.org/es5-ext
+npm http 304 https://registry.npmjs.org/memoizee
+npm http GET https://registry.npmjs.org/assert-plus/0.1.2
+npm http GET https://registry.npmjs.org/asn1/0.1.11
+npm http GET https://registry.npmjs.org/ctype/0.5.2
+npm http 304 https://registry.npmjs.org/assert-plus/0.1.2
+npm http 304 https://registry.npmjs.org/asn1/0.1.11
+npm http 304 https://registry.npmjs.org/ctype/0.5.2
+npm http GET https://registry.npmjs.org/amdefine
+npm http 304 https://registry.npmjs.org/amdefine
+npm http GET https://registry.npmjs.org/lru-cache
+npm http GET https://registry.npmjs.org/delayed-stream/0.0.5
+npm http 304 https://registry.npmjs.org/lru-cache
+npm http 304 https://registry.npmjs.org/delayed-stream/0.0.5
+npm http GET https://registry.npmjs.org/underscore
+npm http GET https://registry.npmjs.org/underscore.string
+npm http 304 https://registry.npmjs.org/underscore
+npm http 304 https://registry.npmjs.org/underscore.string
+npm http GET https://registry.npmjs.org/source-map
+npm http GET https://registry.npmjs.org/optimist
+npm http GET https://registry.npmjs.org/uglify-to-browserify
+npm http GET https://registry.npmjs.org/event-emitter
+npm http GET https://registry.npmjs.org/next-tick
+npm http 304 https://registry.npmjs.org/source-map
+npm http 304 https://registry.npmjs.org/optimist
+npm http 304 https://registry.npmjs.org/uglify-to-browserify
+npm http 304 https://registry.npmjs.org/event-emitter
+npm http 304 https://registry.npmjs.org/next-tick
+npm http GET https://registry.npmjs.org/hoek
+npm http GET https://registry.npmjs.org/boom
+npm http GET https://registry.npmjs.org/cryptiles
+npm http GET https://registry.npmjs.org/sntp
+npm http 304 https://registry.npmjs.org/cryptiles
+npm http 304 https://registry.npmjs.org/boom
+npm http 304 https://registry.npmjs.org/hoek
+npm http 304 https://registry.npmjs.org/sntp
+npm http GET https://registry.npmjs.org/buster-format
+npm http 304 https://registry.npmjs.org/buster-format
+npm http GET https://registry.npmjs.org/buster-core/0.6.4
+npm http 304 https://registry.npmjs.org/buster-core/0.6.4
+npm http GET https://registry.npmjs.org/wordwrap
+npm http 304 https://registry.npmjs.org/wordwrap
+npm http GET https://registry.npmjs.org/amdefine
+npm http 304 https://registry.npmjs.org/amdefine
+npm http GET https://registry.npmjs.org/async
+npm http 304 https://registry.npmjs.org/async
+npm http GET https://registry.npmjs.org/node-pre-gyp
+npm http 200 https://registry.npmjs.org/node-pre-gyp
+npm http GET https://registry.npmjs.org/tar
+npm http GET https://registry.npmjs.org/semver
+npm http GET https://registry.npmjs.org/mkdirp
+npm http GET https://registry.npmjs.org/rimraf
+npm http GET https://registry.npmjs.org/nopt
+npm http GET https://registry.npmjs.org/tar-pack
+npm http GET https://registry.npmjs.org/rc
+npm http GET https://registry.npmjs.org/npmlog
+npm http GET https://registry.npmjs.org/aws-sdk
+npm http 304 https://registry.npmjs.org/tar
+npm http 304 https://registry.npmjs.org/semver
+npm http 304 https://registry.npmjs.org/mkdirp
+npm http 304 https://registry.npmjs.org/nopt
+npm http 304 https://registry.npmjs.org/rimraf
+npm http 304 https://registry.npmjs.org/tar-pack
+npm http 304 https://registry.npmjs.org/rc
+npm http 304 https://registry.npmjs.org/aws-sdk
+npm http 304 https://registry.npmjs.org/npmlog
+npm http GET https://registry.npmjs.org/ansi
+npm http GET https://registry.npmjs.org/minimist
+npm http GET https://registry.npmjs.org/ini
+npm http GET https://registry.npmjs.org/deep-extend
+npm http GET https://registry.npmjs.org/abbrev
+npm http 304 https://registry.npmjs.org/ansi
+npm http GET https://registry.npmjs.org/readable-stream
+npm http GET https://registry.npmjs.org/graceful-fs
+npm http GET https://registry.npmjs.org/once
+npm http GET https://registry.npmjs.org/debug
+npm http GET https://registry.npmjs.org/fstream-ignore/0.0.7
+npm http 304 https://registry.npmjs.org/minimist
+npm http GET https://registry.npmjs.org/fstream
+npm http GET https://registry.npmjs.org/uid-number/0.0.3
+npm http 304 https://registry.npmjs.org/ini
+npm http 304 https://registry.npmjs.org/deep-extend
+npm http 304 https://registry.npmjs.org/graceful-fs
+npm http 304 https://registry.npmjs.org/abbrev
+npm http 304 https://registry.npmjs.org/once
+npm http 304 https://registry.npmjs.org/debug
+npm http 304 https://registry.npmjs.org/fstream-ignore/0.0.7
+npm http 304 https://registry.npmjs.org/fstream
+npm http 304 https://registry.npmjs.org/uid-number/0.0.3
+npm http 304 https://registry.npmjs.org/readable-stream
+npm http GET https://registry.npmjs.org/minimatch
+npm http GET https://registry.npmjs.org/inherits
+npm http GET https://registry.npmjs.org/string_decoder
+npm http 304 https://registry.npmjs.org/minimatch
+npm http 304 https://registry.npmjs.org/inherits
+npm http GET https://registry.npmjs.org/block-stream
+npm http 304 https://registry.npmjs.org/string_decoder
+npm http 304 https://registry.npmjs.org/block-stream
+npm http GET https://registry.npmjs.org/lru-cache
+npm http GET https://registry.npmjs.org/sigmund
+npm http 304 https://registry.npmjs.org/lru-cache
+npm http 304 https://registry.npmjs.org/sigmund
+npm http GET https://registry.npmjs.org/esprima
+npm http GET https://registry.npmjs.org/falafel
+npm http GET https://registry.npmjs.org/xtend
+npm http 304 https://registry.npmjs.org/esprima
+npm http 304 https://registry.npmjs.org/falafel
+npm http 304 https://registry.npmjs.org/xtend
+npm http GET https://registry.npmjs.org/stream-counter
+npm http GET https://registry.npmjs.org/object-keys
+npm http 304 https://registry.npmjs.org/stream-counter
+npm http 304 https://registry.npmjs.org/object-keys
+npm http GET https://registry.npmjs.org/debuglog/0.0.2
+npm http GET https://registry.npmjs.org/core-util-is
+npm http 304 https://registry.npmjs.org/core-util-is
+npm http 304 https://registry.npmjs.org/debuglog/0.0.2
+npm http GET https://registry.npmjs.org/xml2js/0.2.4
+npm http GET https://registry.npmjs.org/xmlbuilder/0.4.2
+npm http 304 https://registry.npmjs.org/xml2js/0.2.4
+npm http 304 https://registry.npmjs.org/xmlbuilder/0.4.2
+npm http GET https://registry.npmjs.org/sax
+npm http 304 https://registry.npmjs.org/sax
+
+> sqlite3@2.2.0 install /home/tchin/programming-novice/node_modules/sqlite3
+> node-pre-gyp install --fallback-to-build
+
+node-pre-gyp http GET http://node-sqlite3.s3.amazonaws.com/Release/node_sqlite3-v2.2.0-node-v11-linux-x64.tar.gz
+node-pre-gyp http 200 http://node-sqlite3.s3.amazonaws.com/Release/node_sqlite3-v2.2.0-node-v11-linux-x64.tar.gz
+[sqlite3] Success: "lib/node_sqlite3.node" is installed
+connect-slashes@1.2.0 node_modules/connect-slashes
+
+colors@0.6.2 node_modules/colors
+
+grunt-update-submodules@0.2.1 node_modules/grunt-update-submodules
+
+node-uuid@1.4.1 node_modules/node-uuid
+
+validator@3.4.0 node_modules/validator
+
+grunt-express-server@0.4.13 node_modules/grunt-express-server
+
+require-dir@0.1.0 node_modules/require-dir
+
+grunt-contrib-concat@0.3.0 node_modules/grunt-contrib-concat
+
+node-polyglot@0.3.0 node_modules/node-polyglot
+
+grunt-shell@0.6.4 node_modules/grunt-shell
+└── chalk@0.3.0 (has-color@0.1.4, ansi-styles@0.2.0)
+
+grunt-mocha-cli@1.4.0 node_modules/grunt-mocha-cli
+
+grunt-contrib-copy@0.4.1 node_modules/grunt-contrib-copy
+
+rewire@2.0.0 node_modules/rewire
+
+grunt-contrib-clean@0.5.0 node_modules/grunt-contrib-clean
+└── rimraf@2.2.6
+
+semver@2.2.1 node_modules/semver
+
+bcryptjs@0.7.10 node_modules/bcryptjs
+
+grunt-contrib-sass@0.5.1 node_modules/grunt-contrib-sass
+├── dargs@0.1.0
+└── async@0.2.10
+
+fs-extra@0.8.1 node_modules/fs-extra
+├── jsonfile@1.1.1
+├── ncp@0.4.2
+├── mkdirp@0.3.5
+└── rimraf@2.2.6
+
+should@2.1.1 node_modules/should
+
+when@2.7.0 node_modules/when
+
+downsize@0.0.5 node_modules/downsize
+└── xregexp@2.0.0
+
+rss@0.2.1 node_modules/rss
+├── xml@0.0.12
+└── mime@1.2.11
+
+supertest@0.8.3 node_modules/supertest
+├── methods@0.1.0
+└── superagent@0.16.0 (methods@0.0.1, cookiejar@1.3.0, qs@0.6.5, debug@0.7.4, emitter-component@1.0.0, reduce-component@1.0.1, mime@1.2.5, formidable@1.0.14)
+
+request@2.29.0 node_modules/request
+├── json-stringify-safe@5.0.0
+├── aws-sign2@0.5.0
+├── forever-agent@0.5.2
+├── qs@0.6.6
+├── tunnel-agent@0.3.0
+├── oauth-sign@0.3.0
+├── mime@1.2.11
+├── form-data@0.1.2 (async@0.2.10, combined-stream@0.0.4)
+├── tough-cookie@0.9.15 (punycode@1.2.4)
+├── http-signature@0.10.0 (assert-plus@0.1.2, asn1@0.1.11, ctype@0.5.2)
+└── hawk@1.0.0 (cryptiles@0.2.2, sntp@0.2.4, boom@0.4.2, hoek@0.9.1)
+
+showdown@0.3.1 node_modules/showdown
+
+lodash@2.4.1 node_modules/lodash
+
+unidecode@0.1.3 node_modules/unidecode
+
+busboy@0.0.12 node_modules/busboy
+├── readable-stream@1.1.11 (debuglog@0.0.2, string_decoder@0.10.25-1, core-util-is@1.0.1)
+└── dicer@0.1.5 (streamsearch@0.1.2)
+
+mocha@1.15.1 node_modules/mocha
+├── diff@1.0.7
+├── debug@0.7.4
+├── growl@1.7.0
+├── commander@2.0.0
+├── mkdirp@0.3.5
+├── jade@0.26.3 (commander@0.6.1, mkdirp@0.3.0)
+└── glob@3.2.3 (graceful-fs@2.0.2, inherits@2.0.1, minimatch@0.2.14)
+
+grunt-contrib-uglify@0.2.7 node_modules/grunt-contrib-uglify
+├── grunt-lib-contrib@0.6.1 (zlib-browserify@0.0.1)
+└── uglify-js@2.4.12 (uglify-to-browserify@1.0.2, async@0.2.10, optimist@0.3.7, source-map@0.1.33)
+
+grunt-cli@0.1.13 node_modules/grunt-cli
+├── nopt@1.0.10 (abbrev@1.0.4)
+├── resolve@0.3.1
+└── findup-sync@0.1.2 (glob@3.1.21, lodash@1.0.1)
+
+bookshelf@0.6.1 node_modules/bookshelf
+├── trigger-then@0.1.1
+├── inflection@1.2.7
+├── backbone@1.1.2 (underscore@1.6.0)
+├── bluebird@0.10.14-0
+└── lodash@2.3.0
+
+grunt-contrib-jshint@0.8.0 node_modules/grunt-contrib-jshint
+└── jshint@2.4.4 (console-browserify@0.1.6, exit@0.1.2, underscore@1.4.4, cli@0.4.5, shelljs@0.1.4, minimatch@0.2.14, htmlparser2@3.3.0)
+
+grunt-contrib-compress@0.5.3 node_modules/grunt-contrib-compress
+├── prettysize@0.0.3
+├── lazystream@0.1.0 (readable-stream@1.0.26-2)
+└── archiver@0.4.10 (readable-stream@1.0.26-2, iconv-lite@0.2.11)
+
+grunt@0.4.2 node_modules/grunt
+├── which@1.0.5
+├── dateformat@1.0.2-1.2.3
+├── eventemitter2@0.4.13
+├── getobject@0.1.0
+├── hooker@0.2.3
+├── async@0.1.22
+├── nopt@1.0.10 (abbrev@1.0.4)
+├── rimraf@2.0.3 (graceful-fs@1.1.14)
+├── exit@0.1.2
+├── minimatch@0.2.14 (sigmund@1.0.0, lru-cache@2.5.0)
+├── lodash@0.9.2
+├── coffee-script@1.3.3
+├── underscore.string@2.2.1
+├── glob@3.1.21 (inherits@1.0.0, graceful-fs@1.2.3)
+├── iconv-lite@0.2.11
+├── js-yaml@2.0.5 (esprima@1.0.4, argparse@0.1.15)
+└── findup-sync@0.1.2 (lodash@1.0.1)
+
+grunt-contrib-handlebars@0.6.1 node_modules/grunt-contrib-handlebars
+├── chalk@0.4.0 (ansi-styles@1.0.0, strip-ansi@0.1.1, has-color@0.1.4)
+├── grunt-lib-contrib@0.5.3 (zlib-browserify@0.0.1)
+└── handlebars@1.1.2 (optimist@0.3.7, uglify-js@2.3.6)
+
+nodemailer@0.5.13 node_modules/nodemailer
+├── directmail@0.1.6
+├── he@0.3.6
+├── readable-stream@1.0.26-2 (string_decoder@0.10.25-1)
+├── simplesmtp@0.3.22 (xoauth2@0.1.8, rai@0.1.9)
+└── mailcomposer@0.2.8 (dkim-signer@0.1.0, punycode@1.2.4, mime@1.2.9, follow-redirects@0.0.3, mimelib@0.2.14)
+
+matchdep@0.3.0 node_modules/matchdep
+├── stack-trace@0.0.7
+├── resolve@0.5.1
+├── findup-sync@0.1.2 (glob@3.1.21, lodash@1.0.1)
+└── globule@0.1.0 (minimatch@0.2.14, glob@3.1.21, lodash@1.0.1)
+
+knex@0.5.0 node_modules/knex
+├── generic-pool-redux@0.1.0
+├── mkdirp@0.3.5
+├── optimist@0.6.1 (wordwrap@0.0.2, minimist@0.0.8)
+├── bluebird@0.10.14-0
+└── lodash@2.3.0
+
+grunt-groc@0.4.5 node_modules/grunt-groc
+└── groc@0.6.3 (spate@0.1.0, underscore@1.6.0, optimist@0.6.1, fs-tools@0.2.11, glob@3.2.9, coffee-script@1.7.1, uglify-js@2.4.12, jade@0.35.0)
+
+grunt-contrib-watch@0.5.3 node_modules/grunt-contrib-watch
+├── tiny-lr@0.0.4 (debug@0.7.4, faye-websocket@0.4.4, noptify@0.0.3, qs@0.5.6)
+└── gaze@0.4.3 (globule@0.1.0)
+
+express-hbs@0.7.9 node_modules/express-hbs
+├── readdirp@0.3.3 (graceful-fs@2.0.2, minimatch@0.2.14)
+├── js-beautify@1.4.2 (mkdirp@0.3.5, nopt@2.1.2, config-chain@1.1.8)
+└── handlebars@1.3.0 (optimist@0.3.7, uglify-js@2.3.6)
+
+moment@2.4.0 node_modules/moment
+
+sinon@1.7.3 node_modules/sinon
+└── buster-format@0.5.6 (buster-core@0.6.4)
+
+express@3.4.6 node_modules/express
+├── methods@0.1.0
+├── cookie-signature@1.0.1
+├── range-parser@0.0.4
+├── fresh@0.2.0
+├── debug@0.7.4
+├── buffer-crc32@0.2.1
+├── cookie@0.1.0
+├── mkdirp@0.3.5
+├── commander@1.3.2 (keypress@0.1.0)
+├── send@0.1.4 (mime@1.2.11)
+└── connect@2.11.2 (uid2@0.0.3, pause@0.0.1, qs@0.6.5, bytes@0.2.1, raw-body@1.1.2, negotiator@0.3.0, multiparty@2.2.0)
+
+bower@1.2.8 node_modules/bower
+├── junk@0.2.2
+├── stringify-object@0.1.8
+├── abbrev@1.0.4
+├── which@1.0.5
+├── chmodr@0.1.0
+├── osenv@0.0.3
+├── archy@0.0.2
+├── graceful-fs@2.0.2
+├── rimraf@2.2.6
+├── open@0.0.4
+├── p-throttler@0.0.1
+├── bower-endpoint-parser@0.2.1
+├── bower-logger@0.2.2
+├── lru-cache@2.3.1
+├── nopt@2.1.2
+├── chalk@0.2.1 (ansi-styles@0.2.0, has-color@0.1.4)
+├── retry@0.6.0
+├── tmp@0.0.23
+├── sudo-block@0.2.1 (chalk@0.1.1)
+├── request-progress@0.3.1 (throttleit@0.0.2)
+├── q@0.9.7
+├── semver@2.1.0
+├── mkdirp@0.3.5
+├── bower-json@0.4.0 (deep-extend@0.2.8, intersect@0.0.3)
+├── fstream@0.1.25 (inherits@2.0.1)
+├── promptly@0.2.0 (read@1.0.5)
+├── tar@0.1.19 (inherits@2.0.1, block-stream@0.0.7)
+├── fstream-ignore@0.0.7 (inherits@2.0.1, minimatch@0.2.14)
+├── glob@3.2.9 (inherits@2.0.1, minimatch@0.2.14)
+├── decompress-zip@0.0.4 (mkpath@0.1.0, touch@0.0.2, readable-stream@1.1.11, binary@0.3.0)
+├── request@2.27.0 (json-stringify-safe@5.0.0, aws-sign@0.3.0, forever-agent@0.5.2, qs@0.6.6, tunnel-agent@0.3.0, oauth-sign@0.3.0, cookie-jar@0.3.0, mime@1.2.11, form-data@0.1.2, http-signature@0.10.0, hawk@1.0.0)
+├── update-notifier@0.1.7 (configstore@0.1.7)
+├── inquirer@0.3.5 (mute-stream@0.0.3, async@0.2.10, lodash@1.2.1, cli-color@0.2.3)
+├── mout@0.7.1
+├── cardinal@0.4.4 (ansicolors@0.2.1, redeyed@0.4.4)
+├── bower-config@0.5.0 (optimist@0.6.1, mout@0.6.0)
+├── handlebars@1.0.12 (optimist@0.3.7, uglify-js@2.3.6)
+└── bower-registry-client@0.1.6 (request-replay@0.2.0, async@0.2.10, bower-config@0.4.5)
+
+blanket@1.1.6 node_modules/blanket
+├── falafel@0.1.6
+├── xtend@2.1.2 (object-keys@0.4.0)
+└── esprima@1.0.4
+
+mysql@2.0.0-alpha9 node_modules/mysql
+├── require-all@0.0.3
+└── bignumber.js@1.0.1
+
+sqlite3@2.2.0 node_modules/sqlite3
+└── node-pre-gyp@0.2.6 (rimraf@2.2.6, mkdirp@0.3.5, nopt@2.1.2, semver@2.1.0, npmlog@0.0.6, rc@0.3.4, tar-pack@2.0.0, tar@0.1.19, aws-sdk@2.0.0-rc9)
+tchin@HP-Mini-110-3000:~/programming-novice$ 
+
+tchin@HP-Mini-110-3000:~/programming-novice$ sudo bundle install
+Using sass (3.2.12)
+Using thor (0.18.1)
+Using bourbon (3.1.8)
+Using bundler (1.5.3)
+Your bundle is complete!
+Use `bundle show [gemname]` to see where a bundled gem is installed.
+tchin@HP-Mini-110-3000:~/programming-novice$ 
+
+tchin@HP-Mini-110-3000:~/programming-novice$ sudo grunt init
+Running "shell:bundle" (shell) task
+
+Running "shell:bourbon" (shell) task
+
+Running "shell:bower" (shell) task
+
+Running "update_submodules" task
+
+Running "sass:compress" (sass) task
+File "./core/client/assets/css/screen.css" created.
+
+Running "handlebars:core" (handlebars) task
+File core/client/tpl/hbs-tpl.js created.
+
+Running "concat:dev" (concat) task
+File "core/built/scripts/vendor.js" created.
+File "core/built/scripts/helpers.js" created.
+File "core/built/scripts/templates.js" created.
+File "core/built/scripts/models.js" created.
+File "core/built/scripts/views.js" created.
+
+Running "concat:prod" (concat) task
+File "core/built/scripts/ghost.js" created.
+
+Running "copy:dev" (copy) task
+
+
+Done, without errors.
+tchin@HP-Mini-110-3000:~/programming-novice$
+
+tchin@HP-Mini-110-3000:~/programming-novice$ sudo npm start
+
+> ghost@0.4.1 start /home/tchin/programming-novice
+> node index
+
+
+Warning: Theme does not have a package.json file
+casper
+
+Ghost is running in development... 
+Listening on 127.0.0.1:2368 
+Url configured as: http://my-ghost-blog.com 
+Ctrl+C to shut down
+
+Ghost has shutdown 
+Ghost was running for 688 seconds
+tchin@HP-Mini-110-3000:~/programming-novice$ sudo pico config.js
+tchin@HP-Mini-110-3000:~/programming-novice$ git add -f "config.js"
+fatal: Unable to create '/home/tchin/programming-novice/.git/index.lock': Permission denied
+tchin@HP-Mini-110-3000:~/programming-novice$ sudo git add -f "config.js"
+tchin@HP-Mini-110-3000:~/programming-novice$ sudo git commit -m "Updated config"[master 1975aa5] Updated config
+ 1 file changed, 149 insertions(+)
+ create mode 100644 config.js
+tchin@HP-Mini-110-3000:~/programming-novice$ 
+
+
+
