@@ -1,0 +1,35 @@
+When you are a novice trying to learn programming on your own you run into stuff
+like what is printed below. What does this mean exactly??
+
+
+Microsoft Windows [Version 6.0.6002]
+Copyright (c) 2006 Microsoft Corporation.  All rights reserved.
+
+C:\Windows\System32>pip install moviepy
+Downloading/unpacking moviepy
+Exception:
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\pip-1.1-py2.7.egg\pip\basecommand.py", lin
+e 104, in main
+    status = self.run(options, args)
+  File "C:\Python27\lib\site-packages\pip-1.1-py2.7.egg\pip\commands\install.py"
+, line 245, in run
+    requirement_set.prepare_files(finder, force_root_egg_info=self.bundle, bundl
+e=self.bundle)
+  File "C:\Python27\lib\site-packages\pip-1.1-py2.7.egg\pip\req.py", line 971, i
+n prepare_files
+    location = req_to_install.build_location(self.build_dir, not self.is_downloa
+d)
+  File "C:\Python27\lib\site-packages\pip-1.1-py2.7.egg\pip\req.py", line 153, i
+n build_location
+    _make_build_dir(build_dir)
+  File "C:\Python27\lib\site-packages\pip-1.1-py2.7.egg\pip\req.py", line 1225,
+in _make_build_dir
+    os.makedirs(build_dir)
+  File "C:\Python27\lib\os.py", line 157, in makedirs
+    mkdir(name, mode)
+WindowsError: [Error 5] Access is denied: 'C:\\Windows\\System32\\build'
+
+Storing complete log in C:\Users\Tania\AppData\Roaming\pip\pip.log
+
+C:\Windows\System32>
